@@ -16,9 +16,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-ul  {
-  background-color: rgba(0,0,0,0.3);
-}
 li  {
   text-align: center;
   color: white;
@@ -26,16 +23,16 @@ li  {
   padding: 15px 25px;
 }
 .insta  {
-  width: 5%;
-  height: 5%;
+  width: 7%;
+  height: 7%;
 }
 .cornell  {
-  width: 5%;
-  height: 5%;
+  width: 7%;
+  height: 7%;
 }
 .youtube  {
-  width: 5%;
-  height: 5%;
+  width: 7%;
+  height: 7%;
 }
 article {
   max-width: 500px;
@@ -68,4 +65,14 @@ button {
 }
 form{
   margin: 10px 0px;
+}
+#firstUL {
+  margin-bottom: 0;
+}
+#secondUL {
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.3);
+}
+.link {
+  color: white;
 }
