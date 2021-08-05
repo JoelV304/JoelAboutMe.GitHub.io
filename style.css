@@ -23,16 +23,16 @@ li  {
   padding: 15px 25px;
 }
 .insta  {
-  width: 7%;
-  height: 7%;
+  width: 5.5%;
+  height: 5.5%;
 }
 .cornell  {
-  width: 7%;
-  height: 7%;
+  width: 5.5%;
+  height: 5.5%;
 }
 .youtube  {
-  width: 7%;
-  height: 7%;
+  width: 5.5%;
+  height: 5.5%;
 }
 article {
   max-width: 500px;
@@ -75,4 +75,10 @@ form{
 }
 .link {
   color: white;
+}
+a:hover {
+  color: white;
+}
+#subbutton {
+  background-color: rgba(13, 194, 52, 0.747);
 }

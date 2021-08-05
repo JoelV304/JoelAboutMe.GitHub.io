@@ -5,9 +5,12 @@ function hoverShrink(){
   var shrink= document.getElementById('grow').style.width= "9%"
 }
 function getFormValue(){
-  let fname= document.getElementById('fname').value
-  document.getElementById('nameDisplay').innerHTML= fname
+  var fname= document.getElementById('fname').value
+  document.getElementById('nameDisplay').innerHTML= 'Hey, ' + fname;
+  var formDel = document.getElementById("form");
+formDel.remove();
+  var buttonDel = document.getElementById("subbutton");
+buttonDel.remove();
 }
-function delElement(){
-  var element= document.removeChild.getElementById('form')
-}
+
+  
